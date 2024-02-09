@@ -18,8 +18,8 @@ logo_site: "https://rsgsoton.net"
 
 # For static delivery this section can all be ignored ==================================================================
 # Specify the location of the workshop
-venue: "Building 60, Innovation Space"           # name of location use "online" if online
-address: "TBC"         # address of location or url of platform
+venue: "Online"           # name of location use "online" if online
+address: "Teams"         # address of location or url of platform
 platform-name: "Teams"   # name of online platform e.g. Teams, Zoom e.t.c
 country: "gb"         # e.g. gb
 language: "en"        # e.g. en
@@ -27,40 +27,76 @@ latitude: "50.909698"    # latitude of location (Soton: 50.909698)
 longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 
 # Specify the start and end date of the workshop
-humandate: "30th - 31st January 2024"      # e.g. "6th August"
+humandate: "4th March - 13th March 2024"      # e.g. "6th August"
 humantime: "13:00 - 16:30"      # e.g. "09:00-17:00"
-startdate: 2024-01-30        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
-enddate: 2024-01-31         # e.g. YYYY-MM-DD
+startdate: 2024-03-04        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
+enddate: 2024-03-13         # e.g. YYYY-MM-DD
 
 # Specify the details of the instructors and helpers
 # Can be list, or single string
 instructor:
-  - "Sam Mangham"
+  - "Ed Parkinson"
+  - "Max Albert"
+  - "Mehtap Özbey Arabaci"
+  - "Philippa Broadbent"
 
 instructor-email:
-  - "s.mangham@soton.ac.uk"
+  - "e.parkinson@soton.ac.uk"
+  - "M.H.Albert@soton.ac.uk"
+  - "M.Ozbey-Arabaci@soton.ac.uk"
+  - "p.k.broadbent@soton.ac.uk"
   
-helper:
-  - "Harry Baker"
+helpers:
+  - "Jamie Court"
+  - "Matt Johnson"
+  - "Hugh Warden"
+  - "Jennifer Barnes-Nunn"
+  - "Moi Nicholas"
 # ======================================================================================================================
 
 # Details about the lessons
 lessons:
-  - title: Version Control with git
-    gh-name: git-novice
+  - title: Best Practices in Data Organisation Using Spreadsheets
+    gh-name: spreadsheets
     type: episode
     branch: main
-    date: 30 January 2024
+    date: 4 March 2024
     start-time: 13:00
     order: 1
 
-  - title: Software Project Management
-    gh-name: project-novice
+  - title: Data Cleaning with OpenRefine
+    gh-name: openrefine-data-cleaning
     type: episode
     branch: main
-    date: 31 January 2024
+    date: 5 March 2024
     start-time: 13:00
     order: 2
+
+  - title: Building Programs with Python
+    gh-name: python-novice
+    type: episode
+    branch: main
+    date:
+      - 6 March 2024
+      - 7 March 2024
+    start-time:
+      - 13:00
+      - 13:00
+    order: 3
+
+  - title: Data Analysis and Visualization in R
+    gh-name: r-novice
+    type: episode
+    branch: main
+    date:
+      - 11 March 2024
+      - 12 March 2024
+      - 13 March 2024
+    start-time:
+      - 13:00
+      - 13:00
+      - 13:00
+    order: 4
 
 ###
 # It is unlikely you need to modify the values below this line
